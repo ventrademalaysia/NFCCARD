@@ -132,9 +132,10 @@
   display:flex;
   align-items:center;
   justify-content:center;
-  color:white;
+ color:white;
   font-size:18px;
-  box-shadow:0 6px 14px rgba(212,175,55,0.35);
+ /* Soft black drop shadow for gold circle */
+ box-shadow:0 8px 18px rgba(0,0,0,0.35);
   text-decoration:none;
   transition:0.25s;
   }
@@ -142,8 +143,9 @@
   /* ICON HOVER EFFECT */
   
   .icon-circle:hover{
-  transform:translateY(-3px);
-  box-shadow:0 10px 22px rgba(212,175,55,0.45);
+ transform:translateY(-3px);
+ /* Slightly stronger shadow on hover */
+ box-shadow:0 12px 26px rgba(0,0,0,0.45);
   }
   
   /* SAVE CONTACT */
@@ -202,13 +204,14 @@
   width:38px;
   height:38px;
   border-radius:50%;
-  background:linear-gradient(145deg,#e6c76a,#c5a03a);
+ background:linear-gradient(145deg,#e6c76a,#c5a03a);
   display:flex;
   align-items:center;
   justify-content:center;
-  color:white;
+ color:white;
   font-size:16px;
-  box-shadow:0 4px 10px rgba(212,175,55,0.3);
+ /* Soft black shadow around gold contact icon */
+ box-shadow:0 6px 14px rgba(0,0,0,0.3);
   }
   
   .contact-item span{
@@ -249,3 +252,48 @@
   }
   
   }
+
+  /* FOOTER ADDRESS */
+
+.footer-address{
+margin-top:22px;
+padding-top:18px;
+border-top:1px solid rgba(198,167,94,0.25);
+display:flex;
+gap:10px;
+align-items:flex-start;
+font-size:14px;
+color:#808080;
+text-align:left;
+}
+
+.footer-address i{
+color:#b8860b;
+font-size:18px;
+margin-top:2px;
+flex-shrink:0;
+}
+
+.footer-address-text{
+flex:1;
+}
+
+.footer-address-text p{
+margin:0;
+line-height:1.6;
+font-size:14px;
+color:#808080;
+}
+
+.footer-company{
+margin-bottom:4px;
+font-weight:500;
+}
+
+.footer-line{
+margin-bottom:2px;
+}
+
+.footer-line:last-child{
+margin-bottom:0;
+}
