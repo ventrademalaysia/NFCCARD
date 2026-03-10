@@ -1,11 +1,11 @@
 BEGIN:VCARD
 VERSION:3.0
-FN:Datuk Seri Is. Zaimil Azhar Bin Zainal
+FN:Datuk Seri Ir. Zaimil Azhar Bin Zainal
 N:Zainal;Zaimil Azhar;;;
 ORG:Ventrade Malaysia Sdn Bhd
 TITLE:Managing Director
 TEL;TYPE=CELL:+60173321009
 EMAIL:zaimil@ventrade.my
-URL:https://Whatsapp/https://api.whatsapp.com/send/?phone=60173321009&text&type=phone_number&app_absent=0
-URL:https://www.linkedin.com/in/https://www.linkedin.com/in/zaimil-azhar-97059120/
+URL:https://api.whatsapp.com/send?phone=60173321009
+URL:https://www.linkedin.com/in/zaimil-azhar-97059120
 END:VCARD
